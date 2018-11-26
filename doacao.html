@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Doação</title>
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+</head>
+<body class="pagina-sobre">
+    <header class="cabecalho">
+        <div class="container">
+            <h1 class="logo">Instituto MackProA</h1>
+            <nav class="menu-principal">
+                <button class="menu-principal__btn">Abrir/fechar menu</button>
+                <ul class="menu-principal__lista">
+                    <li><a class="menu-principal__item" href="index.html">Home</a></li>
+                    <li><a class="menu-principal__item" href="sobre.html">Sobre nós</a></li>
+                    <li><a class="menu-principal__item" href="portifolio.html">Portifólio</a></li>
+                    <li><a class="menu-principal__item" href="contato.html">Contato</a></li>
+                    <li><a class="menu-principal__item" href="projsociais.html">Projetos</a></li>
+                    <li><a class="menu-principal__item menu-principal__item--atual" href="doacao.html">Doação</a></li>
+                    <li><a class="menu-principal__item" href="newsletter.html">Newsletter</a></li>
+                    <li><a class="menu-principal__item" href="parceiros.html">Parceiros</a></li>
+                    <li><a class="menu-principal__item" href="voluntario.html">Voluntario</a>
+                        <li><a class="menu-principal__item" href="mentoria.html">Mentoria</a></li>
+                        <li><a class="menu-principal__item" href="palestras.html">Palestras</a></li>
+                        <li><a class="menu-principal__item" href="visite.html">visite</a></li>
+                    </li>
+                </ul>
+            </nav><!--fim container-->
+        </div>
+    </header>
+    <main>
+        <header class="pagina-cabecalho">
+            <h1 class="pagina-cabecalho__titulo">Doação</h1>
+        </header>
+        <div class="donation-container">
+            <div class="donation-box">
+                <div class="title">Informação de Doação</div>
+                <div class="fields">
+                    <input type="text" id="firstName" placeholder="First Name"> </input>
+                    <input type="text" id="lastName" placeholder="Last Name"> </input>
+                    <input type="text" id="email" placeholder="Email"> </input>
+                </div>
+                    
+                <div class="amount">
+                    <div class="button">$30</div>
+                    <div class="button">$50</div>
+                    <div class="button">$100</div>
+                    <div class="button">$<input type="text" class="set-amount" placeholder=""> </input></div>
+                </div>
+                    
+                <div class="switch">
+                    <input type="radio" class="switch-input" name="view" value="One-Time" id="one-time" checked="">
+                    <label for="one-time" class="switch-label switch-label-off">One-Time</label>
+                    <input type="radio" class="switch-input" name="view" value="Monthly" id="monthly">
+                    <label for="monthly" class="switch-label switch-label-on">Monthly</label>
+                    <span class="switch-selection"></span>
+                </div>
+                    
+                <div class="checkboxes">
+                    <input type="checkbox" id="receipt" class="checkbox" />
+                    <label for="receipt">Email Me A Receipt</label>
+                    <br />
+                    <input type="checkbox" id="anon" class="checkbox" />
+                    <label for="anon">Give Anonymously</label>
+                    <br />
+                    <input type="checkbox" id="list" class="checkbox" />
+                    <label for="list">Adicione seu e-mail</label>
+                </div>
+                <div class="confirm">
+                </div>
+                <div class="donate-button"><i class="fa fa-credit-card"></i> Doe Agora</div>
+            </div>
+        </div>
+    </main>
+    <footer class="rodape">
+        <div class="rodape__linha-1">
+            <div class="container">
+                <div class="rodape__coluna">
+                    <a href="index.html" class="logo">Instituto MackProA</a>
+                    <p>ONG Social</p>
+                </div>
+                <div class="rodape__coluna">
+                    <h2 class="rodape__titulo">Social</h2>
+                    <ul class="rodape__lista-links">
+                        <li><a class="rodape__itens" href="https://www.instagram.com/" target="_blank">Instagram</a></li>
+                        <li><a class="rodape__itens" href="https://www.linkedin.com/" target="_blank">Linkedlin</a></li>
+                        <li><a class="rodape__itens" href="https://www.facebook.com/" target="_blank">facebook</a></li>
+                    </ul>
+                </div>
+                <div class="rodape__coluna">
+                    <h2 class="rodape__titulo">links</h2>
+                    <ul class="rodape__lista-links">
+                        <li><a class="rodape__itens" href="index.html">Home</a></li>
+                        <li><a class="rodape__itens" href="sobre.html">Sobre nós</a></li>
+                        <li><a class="rodape__itens" href="portifolio.html">Portifólio</a></li>
+                        <li><a class="rodape__itens" href="contato.html">Contato</a></li>
+                    </ul>
+                </div>
+            </div> <!--fim container-->
+        </div>
+        <div class="rodape__linha-2">
+            @Todos os direitos reservados - Assis Prestes e Luiz Guilherme
+        </div>
+    </footer>
+
+</body>
+</html>
